@@ -1,0 +1,27 @@
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: black;
+}
+h2 {
+  color: gray;
+}
+h3 {
+  color: gray;
+}
+
+.nav {
+  color: gray;
+}
+img {
+
+  padding-left: 80px;
+  padding-bottom: 50px;
+}
+table{
+  background-color: gray;
+}
+form{
+  background-color: gray;
+}

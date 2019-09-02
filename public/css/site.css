@@ -3,12 +3,18 @@ body {
 }
 h1 {
   color: black;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 h2 {
   color: gray;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 h3 {
   color: gray;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .nav {
@@ -20,8 +26,32 @@ img {
   padding-bottom: 50px;
 }
 table{
-  background-color: gray;
+  background-color: Lightgray;
+  padding-left: 80px;
 }
 form{
-  background-color: gray;
+  background-color: Lightgray;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+p{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+h4{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+img { /* got this code online */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+/* got this code online */
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }

@@ -14,55 +14,54 @@
       </nav>
     <h2> My Favorite Books </h2>
     <table id="taskTable" class="table table-hover">
-  <thead class="thead-light">
-      <tr>
-        <th> Title </th>
-        <th> Author(s) </th>
-        <th> Year Published </th>
-        <th> Page Count </th>
-        <th> MSRP </th>
-      </tr>
-  </thead>
-      <tr>
-        <td> To Kill a Mockingbird </td>
-        <td> Harper Lee </td>
-        <td> 1960 </td>
-        <td> 336 </td>
-        <td> $7.19 </td>
-      </tr>
-      <tr>
-        <td> Becoming </td>
-        <td> Michelle Obama </td>
-        <td> 2018 </td>
-        <td> 448 </td>
-        <td> $16.25 </td>
-      </tr>
-      <tr>
-        <td> The Great Gatsby </td>
-        <td> F. Scott Fitzgerald </td>
-        <td> 1925 </td>
-        <td> 180 </td>
-        <td> $9.92 </td>
-      </tr>
-      <tr>
-        <td> Lord of the Flies </td>
-        <td> William Golding </td>
-        <td> 1954 </td>
-        <td> 224 </td>
-        <td> $5.99 </td>
-      </tr>
-      <tr>
-        <td> The Book Thief </td>
-        <td> Markus Zusak </td>
-        <td> 2005 </td>
-        <td> 608 </td>
-        <td> $6.95 </td>
-      </tr>
-  </table>
+      <thead class="thead-light">
+          <tr>
+            <th> Title </th>
+            <th> Author(s) </th>
+            <th> Year Published </th>
+            <th> Page Count </th>
+            <th> MSRP </th>
+          </tr>
+      </thead>
+          <tr>
+            <td> To Kill a Mockingbird </td>
+            <td> Harper Lee </td>
+            <td> 1960 </td>
+            <td> 336 </td>
+            <td> $7.19 </td>
+          </tr>
+          <tr>
+            <td> Becoming </td>
+            <td> Michelle Obama </td>
+            <td> 2018 </td>
+            <td> 448 </td>
+            <td> $16.25 </td>
+          </tr>
+          <tr>
+            <td> The Great Gatsby </td>
+            <td> F. Scott Fitzgerald </td>
+            <td> 1925 </td>
+            <td> 180 </td>
+            <td> $9.92 </td>
+          </tr>
+          <tr>
+            <td> Lord of the Flies </td>
+            <td> William Golding </td>
+            <td> 1954 </td>
+            <td> 224 </td>
+            <td> $5.99 </td>
+          </tr>
+          <tr>
+            <td> The Book Thief </td>
+            <td> Markus Zusak </td>
+            <td> 2005 </td>
+            <td> 608 </td>
+            <td> $6.95 </td>
+          </tr>
+    </table>
 
 
   <form>
-
     <div class="form-group row">
       <label for="inputTitle" class="col-sm-2 col-form-label">Title</label>
       <div class="col-sm-10">
@@ -115,11 +114,10 @@
       </div>
     </div>
   </form>
-
-    <script src="js/tablesort.min.js"></script>
-    
-    <script>
-      new tablesort(document.getElementById('taskTable'));
-    </script>
+          // github.com/tristen/tablesort
+      <script src='tablesort.min.js'></script>
+      <script>
+        new Tablesort(document.getElementById('taskTable'));
+      </script>
     </body>
 </html>

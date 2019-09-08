@@ -13,7 +13,7 @@
         <a class="navbar-brand" href="sports.html">Sports</a>
       </nav>
     <h2> My Favorite Books </h2>
-    <table id="taskTable" class="table table-hover">
+    <table data-sortable class="table table-hover">
       <thead class="thead-light">
           <tr>
             <th> Title </th>
@@ -114,10 +114,7 @@
       </div>
     </div>
   </form>
-          // github.com/tristen/tablesort
-      <script src='tablesort.min.js'></script>
-      <script>
-        new Tablesort(document.getElementById('taskTable'));
-      </script>
+        <script src="js/sortable.min.js"></script>
+
     </body>
 </html>

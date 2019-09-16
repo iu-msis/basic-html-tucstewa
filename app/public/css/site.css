@@ -28,6 +28,9 @@
 .lowPriority {
   border-left: 4px solid blue;
 }
+
+
+
 /* line 2, ../sass/_sortable.sass */
 table[data-sortable] {
   border-collapse: collapse;

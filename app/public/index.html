@@ -64,19 +64,20 @@
 
   <div class="container">
     <div class"row">
-
         <div id="patientWaitingApp">
-          <img v-bind:src="patients.picture.large" alt="picture"> <br>
-          Name: {{patients.name.first}} {{patients.name.last}} <br>
-          Address: {{ patients.location.street }}
-          {{ patients.location.city }}
-          {{ patients.location.state }}
-          {{ patients.location.postcode }}
-          {{patients.location.nat}} <br>
-          DOB: {{ patients.dob.date }} <br>
-          Age: {{ patients.dob.age }} <br>
-          Email: <a href = "mailto: {{ patients.email }}"> {{ patients.email }} </a>
-
+          <form @submit.prevent="fetchPatients"><br>
+            <img v-bind:src="patients.picture.large" alt="picture"> <br>
+            Name: {{patients.name.first}} {{patients.name.last}} <br>
+            Address: {{ patients.location.street }}
+            {{ patients.location.city }}
+            {{ patients.location.state }}
+            {{ patients.location.postcode }}
+            {{patients.location.nat}} <br>
+            DOB: {{ patients.dob.date }} <br>
+            Age: {{ patients.dob.age }} <br>
+            Email: <a :href = "`mailto:$ { patients.email }`"> {{ patients.email }} </a><br><br>
+            <button class="btn btn-primary" type="submit"> Submit </button><br><br>
+          </form>
         </div>
       </div>
     </div>
